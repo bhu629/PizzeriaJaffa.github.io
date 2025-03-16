@@ -104,6 +104,15 @@ img {
     display: block;
 }
 
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    margin: 0 auto 10px auto;
+    /* centers each element, keeps the current size */
+}
+
 @media (min-width: 768px) {
     #container {
         text-align: center;
@@ -154,5 +163,8 @@ img {
     .desktop-images .flex.item {
         flex: 1;
         max-width: 45%;
+    }
+    footer {
+        text-align: center;
     }
 }
